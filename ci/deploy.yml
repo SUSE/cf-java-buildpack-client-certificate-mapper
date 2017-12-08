@@ -9,6 +9,9 @@ image_resource:
 
 inputs:
 - name: java-buildpack-client-certificate-mapper
+outputs:
+- name: output
+  path: output/
 
 caches:
 - path: maven
